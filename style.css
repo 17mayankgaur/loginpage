@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+  margin: 0;
+  background-color: #576F72;
+  color: #395B64;
+}
+h2,h4{
+  font-family: 'PT Sans', sans-serif;
+}
+label{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+p
+{
+margin-top: 20px;
+margin-bottom: 40px;
+}
+::placeholder{
+  text-align: center;
+  text-indent: 2px;
+}
+
+.innerPlate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:55px 150px;
+  height: 600px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.innerPlate .divison
+{
+  background-color:#eef2f6;
+  height: 600px;
+  width: 618px;
+
+}
+img{
+  height: 600px;
+  width: 618px;
+  opacity: .9;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+img:hover{
+  opacity: 1;
+  transition: .7s;
+}
+.logo
+{
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size:50px;
+  color:#D83A56;
+
+}
+.welcome{
+  text-align: center;
+
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputWrapper input{
+  width: 360px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  border:none;
+  height: 45px;
+  background-color: transparent;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+}
+.inputWrapper input:focus-visible{
+  outline: none;
+}
+.inputWrapper button{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 400px;
+  height: 35px;
+  margin-top: 10px;
+  border: none;
+  background-color:#C4DFAA;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+}
+.inputWrapper button:hover{
+background-color: #90C8AC;
+ transition: .7s;
+}
+.checkbox span{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+.forgotpassword{
+  text-align: right;
+  margin-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
+}
